@@ -1,0 +1,26 @@
+<core:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m"
+		controllerName="ztable.Table" xmlns:html="http://www.w3.org/1999/xhtml">
+	<Page title="Title">
+		<content>
+			<Table id="idTable">
+			  <columns>
+			     <Column>
+			        <header>
+			           <Text text="{m2>NAME}"/>
+			        </header>
+			     </Column>
+			     
+			     <Column>		        
+			            <Text text="{m2>ROLE}"/>
+			     </Column>
+			     
+			     <Column>
+			        <Text text="{m2>DEPT}"/>
+			     </Column>  
+			  </columns>
+			  
+			 
+			</Table>
+		</content>
+	</Page>
+</core:View>
